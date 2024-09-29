@@ -1,0 +1,28 @@
+header {
+    background-color: #f0f0f0; /* light gray background */
+    padding: 1em; /* add some padding to the header */
+    text-align: center; /* center the links */
+    width: 70%;
+    float: right;
+  }
+  
+  header ul {
+    list-style: none; /* remove bullet points */
+    margin: 0; /* remove default margin */
+    padding: 0; /* remove default padding */
+    display: flex; /* make the list items inline */
+    justify-content: space-between; /* space the links evenly */
+  }
+  
+  header li {
+    margin-right: 20px; /* add some space between links */
+  }
+  
+  header a {
+    color: #333; /* dark gray text */
+    text-decoration: none; /* remove default underline */
+  }
+  
+  header a:hover {
+    color: #666; /* darker gray text on hover */
+  }

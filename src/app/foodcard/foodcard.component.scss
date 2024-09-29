@@ -1,0 +1,29 @@
+#header{
+    display: flex;
+
+    align-items: center;
+    float: right;
+
+}
+img{
+  width: 200px;
+}
+
+.food-card {
+  background-color:floralwhite;
+    
+    width: 250px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  @media (max-width: 768px) {
+    .food-card {
+      width: 100%;
+      margin: 10px;
+    }
+  }
+

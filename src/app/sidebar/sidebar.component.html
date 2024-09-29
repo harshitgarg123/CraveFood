@@ -1,0 +1,35 @@
+<!-- Create a container for the sidebar -->
+<div class="sidebar-container">
+  <!-- Create the sidebar itself -->
+  <div class="sidebar">
+    <!-- Add some content to the sidebar -->
+    <h2>Sidebar Title</h2>
+    <ul>
+      <li><a routerLink="profile">
+          Profile
+        </a></li>
+        <li> <a routerLink="foodcard">
+          Food Card
+        </a></li>
+
+      <li><a routerLink="">Log-out</a></li>
+
+
+
+
+      
+
+      <li *ngIf="isprofile">
+        <a routerLink="user/profile/{{username}} ">
+          <button>Show Profile of {{username}}</button>
+        </a>
+      </li>
+      <li *ngIf="iscard">
+        <a routerLink="foodcard/{{username}}">
+          <button>Show Card</button>
+        </a>
+      </li>
+
+    </ul>
+  </div>
+</div>

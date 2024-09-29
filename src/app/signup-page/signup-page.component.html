@@ -1,0 +1,23 @@
+<div id="header">
+    <h1>Sign-Up</h1>
+    <div id="signup">
+        <label for="name">Name:</label>
+        <input type="text" #name>
+
+        <label for="number">Phone No:</label>
+        <input type="text" #number>
+
+        <label for="email">E-mail:</label>
+        <input type="email" #email>
+
+        <label for="password">Password:</label>
+        <input type="password" #password>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" #dob>
+
+        <button (click)="signupsubmit(name.value,number.value,email.value,password.value,dob.value)">Register</button>
+
+    </div>
+
+</div>
